@@ -1,0 +1,72 @@
+/*Variables*/
+$colorPrimario:#276955;
+$colorSecundario:#41A58D;
+$fontPrimaria: 'Open Sans', sans-serif;
+
+
+
+/*--------------------------------------------------------------
+# Carrucel Pagina principal
+--------------------------------------------------------------*/
+.slide1{
+    background-image:url(../../img/uvas.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.slide2{
+    background-image: url(../../img/naranjas.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.slide3{
+    background-image: url(../../img/tomates.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.carousel-item{
+        height: 200px;
+    }
+    @media(min-width: 992px){
+        .carousel-item{
+            height: 600px; 
+        }
+    }
+.card-link{
+    text-align: center;
+    text-transform: none;
+    font-style: italic;
+    
+}
+
+/*--------------------------------------------------------------
+# Box Titulos
+--------------------------------------------------------------*/
+
+.boxTitulo{
+    margin-top: 1px;
+    height: 40px;
+    padding-top: 4px;
+    width: 100%;
+    border: 1px solid $colorPrimario;
+    text-align: center;
+    color:#ccc;
+    font-style: bold;
+    font-size: 14px;  
+    background: $colorPrimario;
+    .boxTitulo__estilo01{
+      color:white;
+      font-family:$fontPrimaria;
+      font-style: italic;
+      font-size: 16px;
+      letter-spacing: 3px;
+   }
+}
+.grid-container {
+    display: grid;
+    grid-gap: 50px 100px;
+  }

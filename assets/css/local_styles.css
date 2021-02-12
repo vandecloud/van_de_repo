@@ -1,0 +1,415 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+/*Header Estilo*/
+
+header img {
+    height: 100px;
+   
+  }
+header{
+    width: 100%;
+    padding: 10px;
+  
+  }
+
+header a:hover{
+    background: #41A58D;
+    color: white;
+    border-radius: 10px;
+    transition: all ease-in-out 250ms;
+  }
+  
+
+/* Estilos Titulos General H1*/
+    h1 {
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 300px;
+    }
+
+/*Barra de navegacion*/
+nav ul {
+  
+    list-style: none;
+    background-color: white;
+    text-align: center;
+  
+  }
+  nav ul {
+  
+    list-style: none;
+    background-color: white;
+    text-align: center;
+ 
+  }
+
+/* Estilos Navegacion*/
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+    transition: all ease-in-out 250ms;
+  
+  }
+
+ul li a {
+    color: #276955;
+    text-decoration: none; 
+    text-transform: uppercase;
+    font-size: 24px;
+  }
+
+/*Estilo pagina seleccionada*/
+
+  .linkCarrito, .linkInicio, .linkContactos, .linkMiCuenta, .linkTienda, .linkVandegranja {
+    color:#41A58D;
+    }
+
+nav ul li a:hover{
+    background: #41A58D;
+    color: white;
+    border-radius: 10px;
+  }
+
+/****************************************Seccion 01 productos destacados en contruccion ********************************************************/
+/*Caja Titulo*/
+    .tituloProductosDestacados{
+        margin-top: 160px;
+        background: #276955;
+        display: block;               
+        width: 100%;        
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    }
+
+
+    /*Estilo Texto Titulo*/
+    .tituloProductosDestacados{
+        color:#ccc;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 40px;
+        word-spacing: 5pt;
+
+    }
+/*Estilo2 Texto Titulo*/
+    .tituloProductosDestacadosEstilo{
+        color: white;
+        background: #276955;
+        text-align: center;
+        text-transform: none;
+        font-style: italic;
+        font-size: 40px;
+        
+    }
+
+/*Estilo caja Imagenes en contruccion*/
+
+    .cardsProductosDestacados {
+        display: flex;
+        flex-direction: wrap;
+        align-items: stretch;    
+    }
+    
+    .cardProductosDestacados{
+        flex: 200px;
+        margin: 10px;
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    } 
+    .cardProductosDestacados img {
+        max-width: 100%;
+    }
+    .cardProductosDestacados .text{
+    
+    
+    color: red;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: lowercase;
+    font-style: italic;
+    font-size: 30px;
+    
+  
+    }
+/************************************************************************************************/
+
+
+
+/*****************************************Seccion 02 "main" Nuestros Productos*******************************************************/
+
+
+
+
+/*Caja Titulo*/
+    .tituloProductos{
+        background: #276955;
+        display: block;
+        width: 100%;        
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    }  
+
+/*Estilo Texto Titulo*/
+    .tituloProductos{
+        color:#ccc;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 40px;
+        word-spacing: 5pt;
+
+    }
+/*Estilo2 Texto Titulo*/
+    .tituloProductosEstilo{
+        
+        color: white;
+        background: #276955;
+        text-align: center;
+        text-transform: none;
+        font-style: italic;
+        font-size: 40px;
+        
+    }
+
+/*Estilo caja Imagenes*/
+
+    .cardsProductos {        
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+    .cardProductos {
+        flex: 200px;
+        margin: 10px;
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    } 
+    .cardProductos img {
+        max-width: 100%;
+    }
+    .cardProductos .text{
+        
+        
+        color: #276955;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        text-transform: lowercase;
+        font-style: italic;
+        font-size: 30px;
+    
+    }
+    a{
+        color:#276955
+        
+    }
+    .card a:hover{
+        
+        background: #41A58D;
+        color: white;
+        border-radius: 10px;
+        padding: 0 40px;
+
+        
+    }
+/************************************************************************************************/
+
+
+/*************************************Seccion 03 Como Funciona***********************************************************/
+
+
+/*Caja Titulo*/
+    .tituloComoFunciona{
+        background: #276955;
+        display: block;
+        width: 100%;
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    }  
+
+/*Estilo Texto Titulo*/
+    .tituloComoFunciona{
+        color:#ccc;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 40px;
+        word-spacing: 5pt;
+
+    }
+/*Estilo2 Texto Titulo*/
+    .tituloComoFuncionaEstilo{
+        
+        color: white;
+        background: #276955;
+        text-align: center;
+        text-transform: none;
+        font-style: italic;
+        font-size: 40px;
+       
+
+
+    }
+
+/*Estilo caja Imagenes*/
+    .cardsComoFuncion {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+     
+    }
+    .cardComoFuncion {
+        flex: 200px;
+        margin: 10px;
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    } 
+    .cardComoFuncion img {
+        max-width: 100%;
+        width: 610px
+    }
+    .cardComoFuncion .text{
+        
+        padding: 10px 20px 20px;
+        color: #276955;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        text-transform: lowercase;
+        font-style: italic;
+        font-size: 30px;
+    
+  
+  }
+    .descripcion{
+        padding: 10px 20px 20px;
+        color: black;
+        text-align: center;
+        text-transform: none;
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-size: 20px;
+        
+    }
+
+
+/*Pie de de Pagina*/ 
+    footer{
+        display: block;
+        width: 100%;
+        margin-top: 100px;
+        list-style: none;
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        
+        height: 30px;
+        background: #276955;
+        color:#d1d4d6;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+    }
+/* Estilos Tablas*/
+
+table
+{
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+.listaCarritoComprasTitulo {
+    
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    color: white;
+    font-weight: 600;
+  
+    table-layout: fixed;
+    background-color: #276955 
+    }
+
+.listaCarritoComprasProductos
+{
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+color:  #276955 ;
+font-weight: 200;
+
+
+
+}
+
+/*Estilos Formulario*/
+fieldset {
+    
+    display: block;
+    margin-top: 160px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-image: url(https://storage.googleapis.com/vandegranjaimg/img/contacto3.jpg);
+    background-repeat:no-repeat;
+    background-size:contain;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    color:#276955;
+    font-weight: 600;
+    text-align: justify;
+    font-size: 16pt
+      
+          
+    }
+
+    input[type=button], input[type=submit], input[type=reset] {
+    background-color: #276955;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    margin: 4px 2px;
+    cursor: pointer;
+    }
+
+    textarea {
+    width: 30%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    }
+  
+
+/* Estilos Parrafos*/
+
+.TextoQuienesSomos{
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 16pt;
+    font-weight: 100;
+    
+}
+
+.TextoQuienesSomosNegrita{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 16pt;
+    font-weight: 800;
+
+}
+
+

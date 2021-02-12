@@ -1,0 +1,371 @@
+@charset "UTF-8";
+/*donde aparecerán los resets, las variables, los mixins*/
+/*Variables*/
+.no-gutters {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+a:link, a:visited, a:active {
+  text-decoration: none !important; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif !important; }
+
+/*--------------------------------------------------------------
+# Barra de navegacion
+--------------------------------------------------------------*/
+nav .logo {
+  width: 100px; }
+  nav .logo ul li a {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #276955; }
+
+nav ul li a:hover {
+  background: #41A58D !important;
+  color: white !important;
+  border-radius: 10px; }
+
+/*--------------------------------------------------------------
+# Pie de de Pagina
+--------------------------------------------------------------*/
+footer {
+  width: 100%;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  background: #276955;
+  color: #d1d4d6; }
+
+/*--------------------------------------------------------------
+# Quienes Somos
+--------------------------------------------------------------*/
+.cardQuienesSomos .cardQuienesSomos__body {
+  background-color: azure; }
+  .cardQuienesSomos .cardQuienesSomos__body .cardQuienesSomos__body__title {
+    color: #276955;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic; }
+  .cardQuienesSomos .cardQuienesSomos__body .cardQuienesSomos__body__title--txt {
+    color: #41A58D;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic; }
+
+/*--------------------------------------------------------------
+# Tienda
+--------------------------------------------------------------*/
+.productos .productos__frutas .productos__frutas__header h4 {
+  color: #276955; }
+
+.productos .productos__verduras__header h4 {
+  color: #276955; }
+
+.productos .productos__granja__header h4 {
+  color: #276955; }
+
+.nav-link {
+  color: #276955; }
+
+.btn-primary {
+  background-color: #41A58D !important;
+  border-color: #41A58D !important; }
+
+/* nuestra aplicación como el grid que estemos empleando*/
+/*Variables*/
+/*--------------------------------------------------------------
+# Carrucel Pagina principal
+--------------------------------------------------------------*/
+.slide1 {
+  background-image: url(../../img/uvas.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.slide2 {
+  background-image: url(../../img/zanahoria2.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.slide3 {
+  background-image: url(../../img/tomates.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.carousel-item {
+  height: 200px; }
+
+@media (min-width: 992px) {
+  .carousel-item {
+    height: 600px; } }
+
+.card-link {
+  text-align: center;
+  text-transform: none;
+  font-style: italic; }
+
+/*--------------------------------------------------------------
+# Box Titulos
+--------------------------------------------------------------*/
+.boxTitulo {
+  margin-top: 1px;
+  height: 40px;
+  padding-top: 4px;
+  width: 100%;
+  border: 1px solid #276955;
+  text-align: center;
+  color: #ccc;
+  font-style: bold;
+  font-size: 14px;
+  background: #276955; }
+  .boxTitulo .boxTitulo__estilo01 {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    letter-spacing: 3px; }
+
+.grid-container {
+  display: grid;
+  grid-gap: 50px 100px; }
+
+/*elementos como botones, barra de navegación*/
+/*Variables*/
+/*Operaciones*/
+.uno {
+  width: 20%;
+  background-color: aqua; }
+
+.dos {
+  width: 50%;
+  background-color: orange; }
+
+.tres {
+  width: 75%;
+  background-color: #276955; }
+
+.cuatro {
+  width: 100%;
+  background-color: #41A58D; }
+
+.sumaresta {
+  /* Suma */
+  width: 506px;
+  font-size: 26px;
+  background-color: #41A58D; }
+
+.sumaresta2 {
+  /* Resta */
+  width: 494px;
+  font-size: 22px;
+  background-color: navy;
+  padding: 31px;
+  color: red; }
+
+/*--------------------------------------------------------------
+# Sections General Contacto
+--------------------------------------------------------------*/
+.contact {
+  padding: 5px; }
+
+.section-bg {
+  background-color: #f8fcf9; }
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact .info {
+  border-top: 3px solid #276955;
+  border-bottom: 3px solid #276955;
+  padding: 30px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12); }
+
+.contact .info i {
+  font-size: 20px;
+  color: #276955;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #eaf6ed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out; }
+
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #222222; }
+
+.contact .info p {
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #555555; }
+
+.contact .info .social-links {
+  padding-left: 60px; }
+
+.contact .info .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  margin-right: 10px; }
+
+.contact .info .social-links a:hover {
+  background: #41A58D;
+  color: #fff; }
+
+.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+  background: #41A58D;
+  color: #fff; }
+
+.contact .php-email-form {
+  width: 100%;
+  border-top: 3px solid #276955;
+  border-bottom: 3px solid #276955;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12); }
+
+.contact .php-email-form .form-group {
+  padding-bottom: 8px; }
+
+.contact .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #276955;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600; }
+
+.contact .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px; }
+
+.contact .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #276955;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite; }
+
+.contact .php-email-form input, .contact .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  border-radius: 4px; }
+
+.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+  border-color: #276955; }
+
+.contact .php-email-form input {
+  height: 44px; }
+
+.contact .php-email-form textarea {
+  padding: 10px 12px; }
+
+.contact .php-email-form button[type="submit"] {
+  background: #41A58D;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px; }
+
+.contact .php-email-form button[type="submit"]:hover {
+  background: #276955; }
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+
+/*--------------------------------------------------------------
+  # Breadcrumbs
+  --------------------------------------------------------------*/
+.breadcrumbs {
+  padding: 15px 0;
+  background: #fbfbfb;
+  min-height: 40px;
+  margin-top: 122px; }
+
+@media (max-width: 992px) {
+  .breadcrumbs {
+    margin-top: 66px; } }
+
+.breadcrumbs h2 {
+  font-size: 28px;
+  font-weight: 300; }
+
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px; }
+
+.breadcrumbs ol li + li {
+  padding-left: 10px; }
+
+.breadcrumbs ol li + li::before {
+  display: inline-block;
+  padding-right: 10px;
+  color: #3c3c3c;
+  content: "/"; }
+
+@media (max-width: 768px) {
+  .breadcrumbs .d-flex {
+    display: block !important; }
+  .breadcrumbs ol {
+    display: block; }
+  .breadcrumbs ol li {
+    display: inline-block; } }
+
+.section-title {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.section-title p {
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #919191; }
+
+/*--------------------------------------------------------------
+# Productos detalles
+--------------------------------------------------------------*/
+.nav-link {
+  color: #276955; }
+
+.btn-primary {
+  background-color: #41A58D !important;
+  border-color: #41A58D !important; }
