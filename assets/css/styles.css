@@ -83,7 +83,7 @@ footer {
   background-size: cover; }
 
 .slide2 {
-  background-image: url(../../img/zanahoria2.jpg);
+  background-image: url(../../img/naranjas.jpg);
   background-position: center;
   background-size: cover; }
 
@@ -108,7 +108,6 @@ footer {
 # Box Titulos
 --------------------------------------------------------------*/
 .boxTitulo {
-  margin-top: 1px;
   height: 40px;
   padding-top: 4px;
   width: 100%;
