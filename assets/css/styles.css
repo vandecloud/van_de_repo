@@ -3,7 +3,7 @@
 /*Variables*/
 .no-gutters {
   padding-left: 0 !important;
-  padding-right: 0 !important; }
+  padding-right: 0     !important; }
 
 a:link, a:visited, a:active {
   text-decoration: none !important; }
@@ -83,7 +83,7 @@ footer {
   background-size: cover; }
 
 .slide2 {
-  background-image: url(../../img/naranjas.jpg);
+  background-image: url(../../img/zanahoria2.jpg);
   background-position: center;
   background-size: cover; }
 
@@ -111,7 +111,6 @@ footer {
   height: 40px;
   padding-top: 4px;
   width: 100%;
-  border: 1px solid #276955;
   text-align: center;
   color: #ccc;
   font-style: bold;
@@ -127,6 +126,31 @@ footer {
 .grid-container {
   display: grid;
   grid-gap: 50px 100px; }
+
+/*--------------------------------------------------------------
+# Cards Nuestros Productos
+--------------------------------------------------------------*/
+.card-group {
+  margin: 0px; }
+  .card-group .card {
+    border-style: none; }
+    .card-group .card .card-body02 {
+      border-left: 1px solid #ccc;
+      border-right: 1px solid #ccc; }
+    .card-group .card .card-body .card-link a {
+      color: #41A58D;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      overflow: hidden;
+      box-shadow: 0 0 25px #ccc;
+      text-align: center;
+      display: block;
+      text-decoration: none;
+      font-weight: bold; }
+    .card-group .card .card-body .card-link a:hover {
+      color: red;
+      transform: scale(1.1); }
 
 /*elementos como botones, barra de navegación*/
 /*Variables*/
