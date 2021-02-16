@@ -31,13 +31,30 @@ nav ul li a:hover {
 /*--------------------------------------------------------------
 # Pie de de Pagina
 --------------------------------------------------------------*/
-footer {
-  width: 100%;
-  list-style: none;
-  text-decoration: none;
-  font-family: "Open Sans", sans-serif;
-  background: #276955;
-  color: #d1d4d6; }
+.footer-top {
+  color: #ccc;
+  padding-top: 2px;
+  background: #41A58D; }
+  .footer-top .footer-contact
+.footer-social h3 {
+    color: white;
+    font-style: italic; }
+  .footer-top h3 {
+    color: white;
+    font-style: italic; }
+  .footer-top .footer-about .logo-footer {
+    width: 100px; }
+  .footer-top .footer-about p {
+    font-style: italic; }
+  .footer-top .footer-about .logo-footer-ref a {
+    font-style: normal; }
+  .footer-top a {
+    color: white; }
+
+.footer-bottom {
+  background: #276955; }
+  .footer-bottom .footer-copyright {
+    color: #d1d4d6; }
 
 /*--------------------------------------------------------------
 # Quienes Somos

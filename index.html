@@ -11,6 +11,8 @@
   <!-- CSS Bootstrap -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+   <!-- fontawesome -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
    <!-- CSS Files -->
    <link rel="stylesheet" href="./assets/css/styles.css">
    <link rel="stylesheet" href="./assets/css/animacion.css">
@@ -110,8 +112,12 @@
       </div>
     </div>
   </main>
-  <h2 class="boxTitulo" data-aos="zoom-in-up">Nuestros <spam class="boxTitulo__estilo01"> Productos</spam></h2>
-<!--Seccion 03 Como Funciona-->
+  <div class="row no-gutters">
+    <div class="boxTitulo">
+      <h2 class="boxTitulo" data-aos="zoom-in-up">Nuestros <spam class="boxTitulo__estilo01"> Productos</spam></h2>
+    </div>
+</div>
+  <!--Seccion 03 Como Funciona-->
   <div class="card-group">
     <div class="card">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.082790154644!2d-4.458097689365526!3d40.18497094910871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4035b57551b6f3%3A0x84be095154d712f6!2sCalle%20Falsa%2C%2045908%20Aldea%20en%20Cabo%2C%20Toledo%2C%20Espa%C3%B1a!5e0!3m2!1ses!2sar!4v1611766292337!5m2!1ses!2sar" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
@@ -122,7 +128,7 @@
     </div>
     <div class="card">
       <img src="./img/frutas verduras.jpg" class="card-img-top" alt="Imagen Verduras">
-      <div class="card-body">
+      <div class="card-body card-body02">
         <h5 class="card-title">Elegí tus productos</h5>
         <p class="card-text">Contanos que querés que te llevemos, podes comprar lo que mas
             te guste o elegir nuestras cajas pensada para vos.</p>
@@ -138,12 +144,74 @@
     </div>
   </div>
 <!--Pie de de Pagina-->
-  <footer class="row no-gutters" >
-    <div class="col-12 text-center">
-      <p>Copyright &copy; 2020-2025 Pablo Vandecaveye, todos los derechos reservados.</p>
+  <footer>
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-lg-4 footer-about wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+            <img class="logo-footer" src="./img/logo.png" alt="logo-footer">
+            <p>
+              Colocar aqui el objetivo de nuestra compañia, un breve reseña a que focaliza esta pagina y cual es el espiritu del equipo (Van de Granja).
+            </p>
+            <p class="logo-footer-ref"> <a href="./views/vandegranja.html">Nuestro Equipo</a></p>
+          </div>
+          <div class="col-md-4 col-lg-4 offset-lg-1 footer-contact wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
+            <h3>Contactos</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Calle Falsa 123, En Las Nubes, Buenos Aires</p>
+                <p><i class="fas fa-phone"></i> Phone: +54 1166 7789 9987 </p>
+                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:hello@domain.com">vandegranja@vandegranja.com</a></p>
+                <p><i class="fab fa-skype"></i> Skype: Van_de_Granja</p>
+                </div>
+                <div class="col-md-4 col-lg-3 footer-social wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+                  <h3>Seguinos en </h3>
+                  <p>
+                    <a href="#"><i class="fab fa-facebook"></i></a> 
+                    <a href="#"><i class="fab fa-twitter"></i></a> 
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a> 
+                    <a href="#"><i class="fab fa-instagram"></i></a> 
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                  </p>
+                </div>
+          </div>
+      </div>
     </div>
-  </footer>
-  <!--Scrip Inicio WoWjs-->
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-5 footer-copyright">
+                  <p>Copyright &copy; VandeGranja, todos los derechos reservados.</p>
+                </div>
+            <div class="col-md-7 footer-menu">
+                  <nav class="navbar navbar-dark navbar-expand-md">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse show" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link scroll-link" href="index.html">Top</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll-link" href="./views/tienda.html">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll-link" href="./views/carrito.html">Carrito</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll-link" href="./views/mi_cuenta.html">Mi Cuenta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll-link" href="./v">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+              </nav>
+                </div>
+          </div>
+      </div>
+    </div>
+  </footer>  
+<!--Scrip Inicio WoWjs-->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
   AOS.init();

@@ -56,15 +56,42 @@ nav{
 # Pie de de Pagina
 --------------------------------------------------------------*/
 
-footer{
-    width: 100%;
-    list-style: none;
-    text-decoration: none;
-    font-family: $fontPrimaria;
-    background: $colorPrimario;
-    color:#d1d4d6;
-       
+.footer-top{
+    .footer-contact 
+        .footer-social h3{
+        color: white;
+        font-style: italic;}
+    h3{ color:white;
+        font-style: italic; }
+    color:#ccc;
+    padding-top: 2px;
+    background: $colorSecundario;
+    .footer-about{
+        .logo-footer{
+            width: 100px;
+        }
+        p{
+            font-style: italic;
+            
+        }
+        .logo-footer-ref a{ 
+            font-style: normal;
+        }
+    }
+    a{
+        color: white;
+    }
 }
+.footer-bottom{
+    background: $colorPrimario;
+    .footer-copyright
+    {
+        color: #d1d4d6;
+    }
+}
+
+
+
 /*--------------------------------------------------------------
 # Quienes Somos
 --------------------------------------------------------------*/
