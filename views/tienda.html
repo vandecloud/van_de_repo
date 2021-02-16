@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-    <link rel="stylesheet" href="../assets/css/styles.css">
-    <link rel="stylesheet" href="../assets/css/responsive.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
-    <title>Nuestros Productos Tienda</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <!-- CSS Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="stylesheet" href="../assets/css/responsive.css"> 
+  <link rel="stylesheet" href="../assets/css/animacion.css">
+  <title>Nuestros Productos Tienda</title>
 </head>
 <body class="container-fluid no-gutters">
-<!--Barra de navegacion con Bootstrap-->
-  <header class= "row no-gutters">
+  <!--Barra de navegacion con Bootstrap-->
+  <header class="row no-gutters">
     <nav class="col-12"> 
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="vandegranja.html">
@@ -32,13 +41,25 @@
             <li class="nav-item">
               <a class="nav-link" href="carrito.html">Carrito</a>
             </li>
-             <li class="nav-item">
+              <li class="nav-item">
               <a class="nav-link" href="mi_cuenta.html">Mi cuenta</a>
             </li>
-             <li class="nav-item">
+              <li class="nav-item">
               <a class="nav-link" href="contactos.html">Contactos</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="vandegranja.html">Nosotros</a>
+            </li>
           </ul>
+          <div class= "col-md-4 col-lg-3 navbar-social wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+            <p>
+              <a href="#"><i class="fab fa-facebook"></i></a> 
+              <a href="#"><i class="fab fa-twitter"></i></a> 
+              <a href="#"><i class="fab fa-google-plus-g"></i></a> 
+              <a href="#"><i class="fab fa-instagram"></i></a> 
+              <a href="#"><i class="fab fa-pinterest"></i></a>
+            </p>
+          </div>
         </div>
       </nav>
     </nav>
@@ -101,14 +122,77 @@
     </div> 
   </main>
 <!--Pie de de Pagina-->
-  <footer class="row no-gutters" >
-    <div class="col-12 text-center">
-      <p>Copyright &copy; 2020-2025 Pablo Vandecaveye, todos los derechos reservados.</p>
+ <footer>
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-lg-4 footer-about wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+          <a href="../index.html"><img class="logo-footer" src="../img/logo.png" alt="logo-footer"> </a>
+          <p>
+            Colocar aqui el objetivo de nuestra compañia, un breve reseña a que focaliza esta pagina y cual es el espiritu del equipo (Van de Granja).
+          </p>
+          <p class="logo-footer-ref"> <a href="vandegranja.html">Nuestro Equipo</a></p>
+        </div>
+        <div class="col-md-4 col-lg-4 offset-lg-1 footer-contact wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
+          <h3>Contactos</h3>
+              <p><i class="fas fa-map-marker-alt"></i> Calle Falsa 123, En Las Nubes, Buenos Aires</p>
+              <p><i class="fas fa-phone"></i> Phone: +54 1166 7789 9987 </p>
+              <p><i class="fas fa-envelope"></i> Email: <a href="mailto:hello@domain.com">vandegranja@vandegranja.com</a></p>
+              <p><i class="fab fa-skype"></i> Skype: Van_de_Granja</p>
+        </div>
+              <div class="col-md-4 col-lg-3 footer-social wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+                <h3>Seguinos en </h3>
+                <p>
+                  <a href="#"><i class="fab fa-facebook"></i></a> 
+                  <a href="#"><i class="fab fa-twitter"></i></a> 
+                  <a href="#"><i class="fab fa-google-plus-g"></i></a> 
+                  <a href="#"><i class="fab fa-instagram"></i></a> 
+                  <a href="#"><i class="fab fa-pinterest"></i></a>
+                </p>
+              </div>
+        </div>
     </div>
-  </footer>
-<!--Separete Bootstrap-->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>    
-</body>  
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-5 footer-copyright">
+                <p>Copyright &copy; VandeGranja, todos los derechos reservados.</p>
+              </div>
+          <div class="col-md-7 footer-menu">
+            <nav class="navbar navbar-dark navbar-expand-md">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="navbar-collapse collapse show" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link scroll-link" href="../index.html">Top</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll-link" href="tienda.html">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll-link" href="carrito.html">Carrito</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll-link" href="mi_cuenta.html">Mi Cuenta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll-link" href="contactos.html">Contacto</a>
+                    </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+    </div>
+  </div>
+</footer> 
+<!-- Template Main JS File -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+</body>
 </html>
