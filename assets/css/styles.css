@@ -28,6 +28,14 @@ nav ul li a:hover {
   color: white !important;
   border-radius: 10px; }
 
+.navbar-social {
+  padding-top: 16px; }
+  .navbar-social a:hover {
+    color: #41A58D; }
+
+a {
+  color: #276955; }
+
 /*--------------------------------------------------------------
 # Pie de de Pagina
 --------------------------------------------------------------*/
@@ -43,7 +51,8 @@ nav ul li a:hover {
     color: white;
     font-style: italic; }
   .footer-top .footer-about .logo-footer {
-    width: 100px; }
+    width: 100px;
+    padding-top: 2px; }
   .footer-top .footer-about p {
     font-style: italic; }
   .footer-top .footer-about .logo-footer-ref a {

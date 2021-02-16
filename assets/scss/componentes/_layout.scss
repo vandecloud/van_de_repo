@@ -51,6 +51,13 @@ nav{
         }
     }
 }
+.navbar-social {
+    a:hover{
+    color:$colorSecundario
+    }
+    padding-top: 16px;} 
+    a {color:$colorPrimario
+    }
 
 /*--------------------------------------------------------------
 # Pie de de Pagina
@@ -69,6 +76,7 @@ nav{
     .footer-about{
         .logo-footer{
             width: 100px;
+            padding-top: 2px;
         }
         p{
             font-style: italic;
