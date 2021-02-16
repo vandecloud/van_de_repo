@@ -56,6 +56,9 @@ nav ul li a:hover {
   .footer-bottom .footer-copyright {
     color: #d1d4d6; }
 
+.navbar-collapse {
+  text-transform: uppercase; }
+
 /*--------------------------------------------------------------
 # Quienes Somos
 --------------------------------------------------------------*/
