@@ -86,7 +86,7 @@ nav{
         }
     }
     a{
-        color: white;
+        color:$colorPrimario;
     }
 }
 .footer-bottom{
@@ -99,7 +99,9 @@ nav{
 .navbar-collapse{
     text-transform: uppercase;
 }
-
+.fa-map-marker-alt, .fa-phone, .fa-envelope, .fa-skype {
+    color: white;
+}
 
 /*--------------------------------------------------------------
 # Quienes Somos

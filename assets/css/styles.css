@@ -58,7 +58,7 @@ a {
   .footer-top .footer-about .logo-footer-ref a {
     font-style: normal; }
   .footer-top a {
-    color: white; }
+    color: #276955; }
 
 .footer-bottom {
   background: #276955; }
@@ -67,6 +67,9 @@ a {
 
 .navbar-collapse {
   text-transform: uppercase; }
+
+.fa-map-marker-alt, .fa-phone, .fa-envelope, .fa-skype {
+  color: white; }
 
 /*--------------------------------------------------------------
 # Quienes Somos
