@@ -9,46 +9,6 @@ $colorSecundario:#41A58D;
 $fontPrimaria: 'Open Sans', sans-serif;
 
 
-/*Operaciones*/
-
-.uno{
-  width: percentage(0.2);
-  background-color: aqua;
-}
-
-.dos{
-  width: percentage(2px / 4px);
-  background-color: orange;
-}
-
-.tres{
-  width: percentage(3px / 4px);
-  background-color: $colorPrimario;
-}
-.cuatro{
-  width: percentage(4px / 4px);
-  background-color: $colorSecundario;
-}
-
-
-.sumaresta {
-  /* Suma */
-  width: 500px + 6;
-  font-size: 24px + 2;
-  background-color: $colorSecundario;
- }
-.sumaresta2 {
-  /* Resta */
-  width: 500px - 6;
-  font-size: 24px - 2;
-  background-color:navy;
-  padding: 30px + 1;
-  color: red;
-  
-}
-
-
-
 /*--------------------------------------------------------------
 # Sections General Contacto
 --------------------------------------------------------------*/

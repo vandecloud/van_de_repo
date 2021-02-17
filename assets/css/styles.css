@@ -186,37 +186,6 @@ a {
 
 /*elementos como botones, barra de navegación*/
 /*Variables*/
-/*Operaciones*/
-.uno {
-  width: 20%;
-  background-color: aqua; }
-
-.dos {
-  width: 50%;
-  background-color: orange; }
-
-.tres {
-  width: 75%;
-  background-color: #276955; }
-
-.cuatro {
-  width: 100%;
-  background-color: #41A58D; }
-
-.sumaresta {
-  /* Suma */
-  width: 506px;
-  font-size: 26px;
-  background-color: #41A58D; }
-
-.sumaresta2 {
-  /* Resta */
-  width: 494px;
-  font-size: 22px;
-  background-color: navy;
-  padding: 31px;
-  color: red; }
-
 /*--------------------------------------------------------------
 # Sections General Contacto
 --------------------------------------------------------------*/
