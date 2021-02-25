@@ -18,7 +18,7 @@
 </head>
 <body class="container-fluid no-gutters">
 <!--Barra de navegacion con Bootstrap-->
-  <header class= "row no-gutters">
+  <header class= "row no-gutters ">
     <nav class="col-12"> 
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="vandegranja.html">
@@ -62,35 +62,124 @@
     </nav>
   </header>
 <!--Seccion 01 Armando el carrito-->
-  <section class= "row no-gutters">
-    <div class="col-12 no-gutters">
-      <table border="1px">               
-          <tr>
-            <th class="listaCarritoComprasTitulo">Producto</th>
-            <th class="listaCarritoComprasTitulo">Codigo</th>
-            <th class="listaCarritoComprasTitulo">Precio</th>
-            <th class="listaCarritoComprasTitulo">Cantidad</th>
-            <th class="listaCarritoComprasTitulo">Editar</th>
-            <th class="listaCarritoComprasTitulo">Eliminar</th>
-          </tr>
-          <tr>   
-            <td class="listaCarritoComprasProductos"> Manzana </td>   
-            <td class="listaCarritoComprasProductos">0001</td>   
-            <td class="listaCarritoComprasProductos">50</td>
-            <td class="listaCarritoComprasProductos" >2</td>
-            <td class="listaCarritoComprasProductos">Fila 1 - Columna 5</td>
-            <td class="listaCarritoComprasProductos" >Fila 1 - Columna 6</td>  
-          </tr>
-          <tr>
-            <td class="listaCarritoComprasProductos" > Pera </td>   
-            <td class="listaCarritoComprasProductos"> 0003 </td>   
-            <td class="listaCarritoComprasProductos"> 60 </td>
-            <td class="listaCarritoComprasProductos"> 1 </td>
-            <td class="listaCarritoComprasProductos" >Fila 2 - Columna 5</td>
-            <td class="listaCarritoComprasProductos" >Fila 2 - Columna 6</td>  
-          </tr>
-      </table>
+  <section class= "col-12 row no-gutters">
+    <div class="boxTitulo">
+      <h2 class="boxTitulo" data-aos="zoom-in-up"> Tu<spam class="boxTitulo__estilo01"> Pedido </spam></h2>
     </div>
+  <div class=" col-12 wrap cf">
+    <div class="heading cf">
+      <h1 class="continue">Carrito <a href="#"><i class=" fas fa-cart-arrow-down "></i></a>  </h1>
+      <a href="./tienda.html" class="continue">Continuar Comprando </a>
+    </div>
+    <div class="cart">
+      <ul class="cartWrap">
+        <li class="items odd">
+          <div class="infoWrap">
+            <div class="cartSection">
+              <img src="../img/manzana-verde-min.jpg" alt="Manzana Verde" class="itemImg" />
+              <p class="itemNumber">#QUE-007544-002</p>
+              <h3>Manzana Verde</h3>
+              <p> <input type="text" class="qty" placeholder="3" /> x $5.00</p>
+              <p class="stockStatus"> Con Stock</p>
+            </div>
+            <div class="prodTotal cartSection">
+              <p>$15.00</p>
+            </div>
+            <div class="cartSection removeWrap">
+              <a href="#" class="remove">x</a>
+            </div>
+          </div>
+        </li>
+        <li class="items even">
+          <div class="infoWrap">
+            <div class="cartSection">
+              <img src="../img/banana-min.jpg" alt="Bananas" class="itemImg" />
+              <p class="itemNumber">#QUE-007544-002</p>
+              <h3>Bananas</h3>
+
+              <p> <input type="text" class="qty" placeholder="3" /> x $5.00</p>
+
+              <p class="stockStatus"> Con Stock</p>
+            </div>
+
+            <div class="prodTotal cartSection">
+              <p>$15.00</p>
+            </div>
+            <div class="cartSection removeWrap">
+              <a href="#" class="remove">x</a>
+            </div>
+          </div>
+        </li>
+
+        <li class="items odd">
+          <div class="infoWrap">
+            <div class="cartSection">
+
+              <img src="../img/cebolla-amarilla-min.jpg" alt="Cebolla Amarrilla" class="itemImg" />
+              <p class="itemNumber">#QUE-007544-002</p>
+              <h3>Cebolla Amarilla</h3>
+
+              <p> <input type="text" class="qty" placeholder="3" /> x $5.00</p>
+
+              <p class="stockStatus out"> Sin Stock</p>
+            </div>
+
+            <div class="prodTotal cartSection">
+              <p>$15.00</p>
+            </div>
+            <div class="cartSection removeWrap">
+              <a href="#" class="remove">x</a>
+            </div>
+          </div>
+        </li>
+        <li class="items even">
+          <div class="infoWrap">
+            <div class="cartSection info">
+
+              <img src="../img/cebolla-verdeo-min.jpg" alt="Cebolla Verdeo" class="itemImg" />
+              <p class="itemNumber">#QUE-007544-002</p>
+              <h3>Cebolla Verdeo</h3>
+
+              <p> <input type="text" class="qty" placeholder="3" /> x $5.00</p>
+
+              <p class="stockStatus"> Con Stock</p>
+
+            </div>
+
+            <div class="prodTotal cartSection">
+              <p>$15.00</p>
+            </div>
+
+            <div class="cartSection removeWrap">
+              <a href="#" class="remove">x</a>
+            </div>
+          </div>
+          <div class="special">
+            <div class="specialContent">¡Regalo gratis con la compra !</div>
+          </div>
+        </li>
+
+        <!--<li class="items even">Item 2</li>-->
+
+      </ul>
+    </div>
+
+    <div class="promoCode"><label for="promo">¿Tiene cupon de promocion?</label><input type="text" name="promo" placholder="Enter Code" />
+      <a href="#" class="btn"></a>
+    </div>
+
+    <div class="subtotal cf">
+      <ul>
+        <li class="totalRow"><span class="label">Subtotal</span><span class="value">$35.00</span></li>
+
+        <li class="totalRow"><span class="label">Envio</span><span class="value">$5.00</span></li>
+
+        <li class="totalRow"><span class="label">Iva</span><span class="value">$4.00</span></li>
+        <li class="totalRow final"><span class="label">Total</span><span class="value">$44.00</span></li>
+        <li class="totalRow"><a href="#" class="btn continue">Pagar</a></li>
+      </ul>
+    </div>
+  </div>
   </section>
  <!--Pie de de Pagina-->
   <footer>

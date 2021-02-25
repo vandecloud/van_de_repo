@@ -1,7 +1,11 @@
-
 @import './componentes/base'; /*donde aparecerán los resets, las variables, los mixins*/
 @import './componentes/layout'; /* nuestra aplicación como el grid que estemos empleando*/
 @import './componentes/components'; /*elementos como botones, barra de navegación*/
+
+
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic|Montserrat:400,700);
+$fontSans : 'Montserrat', sans-serif;
+$fontSerif : 'Droid Serif', serif;
 
 /*Variables*/
 $colorPrimario:#276955;
