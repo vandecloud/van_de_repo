@@ -643,9 +643,16 @@ a.remove {
 /*--------------------------------------------------------------
 # mi Cuenta
 --------------------------------------------------------------*/
-.main-section {
+.modal-content {
+  border: 0px;
   border-top: 3px solid #276955;
   padding: 30px;
   background: #fff;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12); }
+
+.alert-success {
+  background-color: #41A58D; }
+
+.modal-dialog {
+  font-family: "Montserrat", sans-serif; }

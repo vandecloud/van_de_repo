@@ -201,10 +201,19 @@ $fontPrimaria: 'Open Sans', sans-serif;
 # mi Cuenta
 --------------------------------------------------------------*/
 
-.main-section {
+.modal-content {
+  border: 0px;
   border-top: 3px solid $colorPrimario;
   padding: 30px;
   background: #fff;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.alert-success {
+  background-color: $colorSecundario;
+}
+
+.modal-dialog{
+  font-family: $fontSans;
 }
