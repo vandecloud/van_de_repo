@@ -487,6 +487,12 @@ a.remove {
     width: 100%;
     text-align: center; } }
 
+.car-van {
+  width: 100px !important; }
+
+.car-van-abuela {
+  width: 150px; }
+
 /*elementos como botones, barra de navegación*/
 /*Variables*/
 /*--------------------------------------------------------------
