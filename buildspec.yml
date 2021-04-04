@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+
+  pre_build:
+    commands:
+      - echo EN ESTA ETAPA NO HAY NADA...
+  build:
+    commands:
+      - echo EMPEZANDO A COMPILAR Y CONSTRUIR LA APLICACION`date`
+  post_build:
+    commands:
+      - echo COMPILACION COMPLETADA `date`
+      - aws s3 sync . s3://hostwebstatic --exclude buildspec.yml
